@@ -43,7 +43,7 @@ function atualizarLista() {
     });
 }
 
-// Função para remover um amigo da lista
+// Função para remover um amigo da lista 
 function removerAmigo(index) {
     listaDeAmigos.splice(index, 1);
     atualizarLista();
